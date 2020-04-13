@@ -19,4 +19,9 @@ public class UserController {
         System.out.println("----------请求到达！-------------");
         return "login";
     }
+     @RequestMapping("/register")
+    public String userLogin(){
+        System.out.println("----------请求到达！-------------");
+        return "register";
+    }
 }
